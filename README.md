@@ -12,7 +12,7 @@
 ##### Se utiliza la librería de Matplotlib para hacer gráficos que permitan ir entendiendo los datos y visualizarlos por medio de histogramas, gráficos de dispersión y gráficos de unión de puntos. 
 ##### Se emplea la librería de sklearn para hacer la separación de datos de entrenamiento y prueba mediante el método train_test_split, para utilizar varios modelos de regresión, y para finalmente hacer una medida del error de los valores de la predicción con los reales mediante r2score y mean_squared_error y determinar el más útil. 
 
-### Conclusiones y resultados que se obtuvieron
+### Conclusiones y resultados obtenidos
 ##### Fueron utilizados varios algoritmos para verificar con cuál había mayor exactitud en la predicción. Entre estos algoritmos están: regresión lineal múltiple, regresión polinómica, máquinas de soporte vectorial para regresión, árbol de regresión y bosques aleatorios de regresión. Fueron utilizados los métodos de mean_squared_error y el de R cuadrado para hacer las respectivas observaciones y comparaciones del error en cada modelo. 
 
 ![image](https://user-images.githubusercontent.com/43154438/118034332-7a341300-b32f-11eb-81a9-e116aa2ef604.png)
