@@ -1,4 +1,4 @@
-# BeisbolPrediction
+# Beisbol_Predicción
 ## Predicción de la cantidad de juegos que puede ganar en una temporada un equipo de béisbol
 
 ### Descripción del Dataset y cómo se obtuvo
