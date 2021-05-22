@@ -1,6 +1,8 @@
 # Beisbol_Predicción
 ## Predicción de la cantidad de juegos que puede ganar en una temporada un equipo de béisbol
 
+También podemos ver el notebook aquí: https://nbviewer.jupyter.org/github/DanielAndres1116/Victorias_Beisbol_Prediccion/blob/main/PrediccionVictoriasBeisbol.ipynb 
+
 ### Descripción del Dataset y cómo se obtuvo
 El dataset empleado en este proyecto se obtuvo de la página www.seanlahman.com. Sean Lahman es un reportero de investigación que ha recolectado un gran número de información sobre los equipos que forman parte de las ligas mayores de Estados Unidos. En el siguiente link podemos ver la información contenida en el dataset en cuestión: www.seanlahman.com/files/database/readme2017.txt
 
