@@ -10,7 +10,18 @@ Se creó un modelo que determina cuántos juegos puede ganar en una temporada un
 #### Herramientas y librerías utilizadas
 Se utiliza la librería de Pandas para importar el archivo correspondiente y gestionar los datos de manera adecuada antes de pasarlos por el modelo de Machine Learning. Es útil para hacer el análisis de cada una de las variables y eliminar columnas y/o filas con datos nulos, así como para hacer el preprocesamiento correspondiente de los datos y hacerlos más viables pare el modelo predictivo.
 Se utiliza la librería de Matplotlib para hacer gráficos que permitan ir entendiendo los datos y visualizarlos por medio de histogramas, gráficos de dispersión y gráficos de unión de puntos. 
-Se emplea la librería de sklearn para hacer la separación de datos de entrenamiento y prueba mediante el método train_test_split, para utilizar varios modelos de regresión, y para finalmente hacer una medida del error de los valores de la predicción con los reales mediante r2score y mean_squared_error y determinar el más útil. 
+Se emplea la librería de sklearn para hacer la separación de datos de entrenamiento y prueba mediante el método train_test_split, para utilizar varios modelos de regresión, y para finalmente hacer una medida del error de los valores de la predicción con los reales mediante r2score y mean_squared_error y determinar el más útil.
+
+Algunos de los gráficos de importancia realizados para entender los datos y ver su relevancia para el modelo fueron:
+
+![image](https://user-images.githubusercontent.com/43154438/119208012-06e47c80-ba66-11eb-8ca7-16fdfbd1c8c3.png)
+Este es un gráfico de dispersión que permite analizar qué variable tiene más peso sobre los juegos ganados, si las carreras permitidas o las hechas.
+
+![image](https://user-images.githubusercontent.com/43154438/119208099-49a65480-ba66-11eb-9e81-9e9bfe126cb9.png)
+En este histograma vemos el número de equipos que tuvo determinada cantidad de juegos ganados
+
+![image](https://user-images.githubusercontent.com/43154438/119208190-99851b80-ba66-11eb-94ff-6b00a59eadb4.png)
+Este gráfico lineal es para hecerse a una idea de cuánto varían las carreras realizadas a lo largo de los años
 
 ### Conclusiones y resultados obtenidos
 Fueron utilizados varios algoritmos para verificar con cuál había mayor exactitud en la predicción. Entre estos algoritmos están: regresión lineal múltiple, regresión polinómica, máquinas de soporte vectorial para regresión, árbol de regresión y bosques aleatorios de regresión. Fueron utilizados los métodos de mean_squared_error y el de R cuadrado para hacer las respectivas observaciones y comparaciones del error en cada modelo. 
