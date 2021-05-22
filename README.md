@@ -4,6 +4,8 @@
 ### Descripción del Dataset y cómo se obtuvo
 El dataset empleado en este proyecto se obtuvo de la página www.seanlahman.com. Sean Lahman es un reportero de investigación que ha recolectado un gran número de información sobre los equipos que forman parte de las ligas mayores de Estados Unidos. En el siguiente link podemos ver la información contenida en el dataset en cuestión: www.seanlahman.com/files/database/readme2017.txt
 
+![image](https://user-images.githubusercontent.com/43154438/119208605-aacf2780-ba68-11eb-8a85-e08ac369fff0.png)
+
 ### Objetivos
 Se creó un modelo que determina cuántos juegos puede ganar en una temporada un equipo específico de béisbol en las ligas mayores. Además del objetivo de poner en práctica habilidades en procesamiento de datos y entrenamiento de modelos de machine learning para problemas de regresión, cabe destacar que aplicándole un modelo predictivo a estos datos es posible hacer una estimación de las características del juego que más influyen a la hora de obtener más victorias en la temporada para de esta manera optimizar los enfoques de entrenamiento de algún equipo en particular y entender los detalles más importantes en los que se debe mejorar. Entre estas características están: las carreras permitidas, carreras hechas, homeruns, bateos, hits, bases robadas, ponchadas, etc. Cabe resaltar que el principio de este análisis puede servir para enfocarlo a cualquier clase de deporte. 
 
